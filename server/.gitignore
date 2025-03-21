@@ -1,0 +1,9 @@
+socket.log
+Dockerfile
+docker-compose.yml
+.env
+node_modules
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+yarn.lock

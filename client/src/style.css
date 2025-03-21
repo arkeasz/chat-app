@@ -1,0 +1,93 @@
+.hidden {
+  visibility: hidden;
+  position: absolute;
+  top: -500%;
+  display: none;
+}
+
+#app {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button {
+  background-color: aliceblue;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1112;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 1rem;
+  width: 50%;
+  min-width: 350px;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.messages {
+  width: 80%;
+  min-height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.msg {
+  width: 100%;
+  display: flex;
+}
+
+.msg-join {
+  text-align: center;
+}
+
+.msg-message {
+  color: transparent;
+  display: none;
+  visibility: hidden;
+}
+.msg-normal .msg-text {
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  /* padding: 4px 5px; */
+  text-align: justify;
+  /* suppor for chrome */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+  text-justify: inter-character;
+  -webkit-text-justify: inter-character;
+  -moz-text-justify: inter-character;
+  -ms-text-justify: inter-character;
+  -o-text-justify: inter-character;
+}
